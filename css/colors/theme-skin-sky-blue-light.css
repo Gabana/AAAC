@@ -4,6 +4,33 @@
   color: #ff9941 !important;
 }
 
+.text-link-orange {
+  color: #ff9941 !important;
+}
+
+.text-subheading-siglig {
+  font-weight: bold;
+  color: #0233af !important;
+}
+
+.text-research-interests{
+  font-weight: bold;
+  color: #999;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.siglig-list{
+  font-size: 20px;
+  /*font-weight: bold;*/
+}
+
+.text-link-siglig {
+  color: #ff9941 !important;
+}
+
 /* --------------------------------------
 @Author: ThemeMascot
 @URL: http://themeforest.net/user/ThemeMascot

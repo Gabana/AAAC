@@ -105,7 +105,18 @@
               </li>
               <li><a href="#">Association</a></li>
               <li><a href="members.html">Members</a></li>
-              <li><a href="#">SIGs and LIGs</a></li>
+              <li><a href="sigsandligs.html">SIGs and LIGs</a>
+                <ul class="dropdown">
+                  <li><a href="sigsandligs-single.html">Entertainment SIG</a></li>
+                  <li><a href="sigsandligs-single.html">Patent SIG</a></li>
+                  <li><a href="sigsandligs-single.html">Personality SIG</a></li>
+                  <li><a href="sigsandligs-single.html">Speech SIG</a></li>
+                  <li><a href="sigsandligs-single.html">LIG France</a></li>
+                  <li><a href="sigsandligs-single.html">LIG Germany</a></li>
+                  <li><a href="sigsandligs-single.html">LIG Ireland</a></li>
+                  <li><a href="sigsandligs-single.html">LIG UK</a></li>
+                </ul>
+              </li>
               <li><a href="#">About</a>
                   <ul class="dropdown">
                   <li><a href="page-about1.html">About style 1</a></li>
@@ -118,7 +129,8 @@
                   <li><a href="page-single-event.html">Single Event</a></li>
                 </ul>
               </li>
-        
+               <li><a href="http://www.acii2017.org">ACII 2017</a></li>
+              
             </ul>
           </nav>
         </div>
@@ -140,17 +152,17 @@
                   <h2 class="text-white text-uppercase font-48 font-weight-800 pl-10 mt-0 mb-20 line-height-1">Association for the Advancement of Affective Computing</h2>
                   <div class="col-sm-12 col-md-12">
                     <div class="icon-box p-10 pl-0 mb-20">
-                     <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-sm pull-left sm-pull-none flip" href="#">
-                      <i class="pe-7s-pen text-white"></i>
+                     <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-sm pull-left sm-pull-none flip" href="https://www.computer.org/web/tac">
+                      <i class="pe-7s-notebook text-white"></i>
                      </a>
                      <div class="ml-70 ml-sm-0">
-                      <p class="text-white font-26">IEEE Transactions on Affective Computing</p>
+                      <p class="text-white font-26"><a href="https://www.computer.org/web/tac" class="text-white font-26">IEEE Transactions on Affective Computing</a></p>
                      </div>
                     </div>
                   </div>
                     <div class="col-sm-6 col-md-6">
-                    <a class="btn btn-theme-colored btn-default ml-15 mt-15" href="#">Submit a manuscript</a>
-                    <a class="btn btn-theme-colored text-white ml-15 mt-15" href="#">Subscribe</a>
+                    <a class="btn btn-theme-colored btn-default ml-15 mt-15" href="https://www.computer.org/portal/web/tac/author">Submit a manuscript</a>
+                    <a class="btn btn-theme-colored text-white ml-15 mt-15" href="https://newton.computer.org/sssubs.nsf/application?openform&promocode=tac">Subscribe</a>
                   </div>
                 </div>
               </div>
@@ -275,12 +287,13 @@
 
     <!-- Section: Become a Member -->
     <section>
+      <div id="registermember"></div>
       <div class="container">
         <div class="section-content">
 
           <div class="row">
             <div class="col-md-6">
-              <h3 class="bg-theme-colored p-15 pl-30 mb-0 text-white">Become a Member</h3>
+              <h3 class="bg-theme-colored p-15 pl-30 mb-0 text-white">Registration</h3>
               <form id="volunteer_apply_form" class="bg-light p-30 pb-15" name="job_apply_form" action="includes/become-volunteer.php" method="post" enctype="multipart/form-data">
                 <div class="row">
                   <div class="col-sm-12">
@@ -348,10 +361,18 @@
                 });
               </script>
             </div>
-            <div class="col-md-6 sm-text-center mt-40">
-              <img class="hidden-sm hidden-xs" src="http://placehold.it/410x504" alt="">
-            </div>
+           
           </div>
+           <div class="col-md-6 sm-text-center">
+            <h2 class="font-36"> <span class="text-theme-colored">Become a Member</span> </h2>
+              <p>The AAAC currently has XXXX members.</p>
+              <p>Membership in the Association is open to all researchers and research students in one of the disciplines related to emotion-oriented and affective computing.</p>
+              <p>Alternatively, transfer the amount to the following account: <br>
+              <b>IBAN: GB55MIDL40040751449362 — SWIFT/BIC: MIDLGB22 </b><br>
+              (Bank: HSBC Kings Cross, 31 Euston Road, NW1 2ST London UK — Beneficiary: The Association for the Advancement of Affective Computing, care of Tyndallwoods Solicitors, 29 Woodbourne Road, B17 8BY Birmingham UK) and send a screenshot or receipt of the bank transfer to <a href="mailto:portal-editor@emotion-research.com" class="text-link-orange">portal-editor</a> & <a href="mailto:treasurer@emotion-research.com" class="text-link-orange">treasurer</a></p>
+
+              <!-- <img class="hidden-sm hidden-xs" src="http://placehold.it/410x504" alt=""> -->
+            </div>
         </div>
       </div>
     </section>
@@ -370,6 +391,7 @@
 
  <!-- Section: Members -->
     <section id="team" class="bg-silver-light">
+
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
@@ -378,7 +400,7 @@
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
+              <p><b>The AAAC currently has XXXX active members.</b> <br> Want to join the AAAC or renew your membership? Click <a href="#registermember" class="text-link-orange smooth-scroll-to-target">here</a></p>
             </div>
           </div>
         </div>
@@ -455,7 +477,106 @@
       </div>
     </section>
 
-    <!-- Section:  comitee -->
+    <!-- Section:  Management board -->
+    <section id="team" class="bg-silver-light">
+      <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h2 class="text-uppercase line-bottom-center mt-0"><span class="text-theme-colored font-weight-600">Management</span> Board</h2>
+              <div class="title-icon">
+                <i class="flaticon-charity-hand-holding-a-heart"></i>
+              </div>
+              <p>Board elected as the managing team of the Association. They can be reached under <a href="mailto:management-board@emotion-research.net" class="text-link-orange"> management-board@emotion-research.net</a>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row multi-row-clearfix">
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  
+                  <div class="overlay">
+                    <div class="content">
+                     <b> <p>President<br>2017-2021</p>
+                      <a href="mailto:president@emotion-research.com" class="text-link-members">president@emotion-research.com</a></b>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  <!-- </a> -->
+                </div>
+                <div class="team-info bg-theme-colored">
+                  <a href="#"> <h3 class="mt-0 text-white">Hatice Gunes</h3>
+                  <p class="text-gray-lighter">President</p></a>
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  <a href="#">
+                  <div class="overlay">
+                    <div class="content">
+                      <b><p>Secretary<br>2017-2021</p>
+                      <a href="mailto:secretary@emotion-research.com" class="text-link-members">secretary@emotion-research.com</a></b>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="team-info bg-theme-colored">
+                  <a href="#"><h3 class="mt-0 text-white">Bj&ouml;rn Schuller</h3>
+                  <p class="text-gray-lighter">Secretary</p></a>
+
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                   <!--  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="http://placehold.it/344x305" class="img-fullwidth">
+                  <!-- <a href="#"> -->
+                  <div class="overlay">
+                    <div class="content">
+                      <b><p>Treasurer<br>2017-2021</p>
+                      <a href="mailto:treasurer@emotion-research.com"  class="text-link-members">treasurer@emotion-research.com</a></b>
+
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                <!-- </a> -->
+                </div>
+                <div class="team-info bg-theme-colored">
+                  <a href="#"><h3 class="mt-0 text-white">Michel Valstar</h3>
+                  <p class="text-gray-lighter">Treasurer</p></a>
+
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section:  Management board -->
     <section id="team" class="bg-silver-light">
       <div class="container">
         <div class="section-title text-center">
@@ -465,76 +586,201 @@
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
+              <p>The following persons form the Executive Committee of the Association, its decision-making body.</p>
+          
             </div>
           </div>
         </div>
         <div class="section-content">
           <div class="row multi-row-clearfix">
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  
+                  <a href="#">
+                    <div class="overlay">
+                    <div class="content">
+                     <b> <p>2017-2021<br><span class="text-link-orange"> See Profile</span></p>
+                      <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="team-info bg-theme-colored">
+                   <a href="#"><h3 class="mt-0 text-white">Joost Broekens</h3></a>
+                   <!-- <p class=" text">2017-2021</p> -->
+                  <p class="text-gray-lighter"><a href="http://web.mit.edu/" class="text-link-orange">mit.edu</a></p>
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  
+                  <a href="#">
+                    <div class="overlay">
+                    <div class="content">
+                     <b> <p>2017-2021<br><span class="text-link-orange"> See Profile</span></p>
+                      <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="team-info bg-theme-colored">
+                   <a href="#"><h3 class="mt-0 text-white">Joost Broekens</h3></a>
+                   <!-- <p class=" text">2017-2021</p> -->
+                  <p class="text-gray-lighter"><a href="http://web.mit.edu/" class="text-link-orange">mit.edu</a></p>
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  
+                  <a href="#">
+                    <div class="overlay">
+                    <div class="content">
+                     <b> <p>2017-2021<br><span class="text-link-orange"> See Profile</span></p>
+                      <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="team-info bg-theme-colored">
+                   <a href="#"><h3 class="mt-0 text-white">Joost Broekens</h3></a>
+                   <!-- <p class=" text">2017-2021</p> -->
+                  <p class="text-gray-lighter"><a href="http://web.mit.edu/" class="text-link-orange">mit.edu</a></p>
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  
+                  <a href="#">
+                    <div class="overlay">
+                    <div class="content">
+                     <b> <p>2017-2021<br><span class="text-link-orange"> See Profile</span></p>
+                      <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="team-info bg-theme-colored">
+                   <a href="#"><h3 class="mt-0 text-white">Joost Broekens</h3></a>
+                   <!-- <p class=" text">2017-2021</p> -->
+                  <p class="text-gray-lighter"><a href="http://web.mit.edu/" class="text-link-orange">mit.edu</a></p>
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-4 mb-30">
+              <div class="team-member clearfix">
+                <div class="team-thumb">
+                  <img alt="" src="images/management/HGunes.png" class="img-fullwidth">
+                  
+                  <a href="#">
+                    <div class="overlay">
+                    <div class="content">
+                     <b> <p>2017-2021<br><span class="text-link-orange"> See Profile</span></p>
+                      <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
+                    </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="team-info bg-theme-colored">
+                   <a href="#"><h3 class="mt-0 text-white">Joost Broekens</h3></a>
+                   <!-- <p class=" text">2017-2021</p> -->
+                  <p class="text-gray-lighter"><a href="http://web.mit.edu/" class="text-link-orange">mit.edu</a></p>
+                  <ul class="styled-icons icon-circled icon-theme-colored">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section:  comitee -->
+  <!--   <section id="team" class="bg-silver-light">
+      <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h2 class="text-uppercase line-bottom-center mt-0"><span class="text-theme-colored font-weight-600">Executive</span> Comitee</h2>
+              <div class="title-icon">
+                <i class="flaticon-charity-hand-holding-a-heart"></i>
+              </div>
+              <p>The following persons form the Executive Committee of the Association, its decision-making body.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row multi-row-clearfix">
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
               <div class="team-member clearfix">
                 <div class="team-thumb">
                   <img alt="" src="http://placehold.it/360x360" class="img-fullwidth">
                   <div class="overlay">
                     <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
+                      <p></p>
                     </div>
                   </div>
                 </div>
                 <div class="team-info bg-theme-colored">
                   <h3 class="mt-0 text-white">Sakib Jacson</h3>
                   <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
               <div class="team-member clearfix">
                 <div class="team-thumb">
-                  <img alt="" src="http://placehold.it/360x360" class="img-fullwidth">
+                  <img alt="" src="images/committee/joostbroekens.jpg" class="img-fullwidth">
                   <div class="overlay">
                     <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
+                      <p></p>
                     </div>
                   </div>
                 </div>
                 <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Jerin Jacson</h3>
+                  <h3 class="mt-5 text-white">Joost Broekens</h3>
+                  <p class="mt-0 text-gray-lighter">2017-2021</p>
+                  <a href="#" class="text-link-orange">MIT.edu</p>
                   <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="http://placehold.it/360x360" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Alex Jacobson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
   </div>
   <!-- end main-content -->
@@ -545,7 +791,8 @@
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="widget mb-20"> <img alt="" src="images/aaac-logo-new-white-footer.png">
-            <p class="font-12 mt-15 mb-10">Association for the Advancement of Affective Computing</p>
+            <p class="font-12 mt-15 mb-10">Copyright © 2018 by AAAC, the Association for the Advancement of Affective Computing. </p>
+            <!-- <p class="font-12 mt-15 mb-10"><a href="#" >Legal disclaimer.</a></p> -->
           </div>
           <div class="widget dark">
             <div class="widget-subscribe mt-20">
