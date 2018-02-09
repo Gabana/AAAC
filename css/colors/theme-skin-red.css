@@ -1,3 +1,41 @@
+
+/* My colors */
+.text-link-members {
+  color: #ff9941 !important;
+}
+
+.text-link-orange {
+  color: #ff9941 !important;
+}
+
+.text-subheading-siglig {
+  font-weight: bold;
+  color: #0233af !important;
+}
+
+.text-research-interests{
+  font-weight: bold;
+  color: #999;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.siglig-list{
+  font-size: 20px;
+  /*font-weight: bold;*/
+}
+
+.text-link-siglig{
+  color: #ff9941 !important;
+}
+
+.add-tab{
+  display: inline-block;
+
+}
+
 /* --------------------------------------
 @Author: ThemeMascot
 @URL: http://themeforest.net/user/ThemeMascot
@@ -7,15 +45,15 @@ COLOR CODE: #EE163B
 ----------------------------------------- */
 /* text-theme-color */
 .text-theme-colored {
-  color: #EE163B !important;
+  color: #eb1854 !important;
 }
 /* text-hover-theme-color */
 .text-hover-theme-colored:hover {
-  color: #EE163B !important;
+  color: #eb1854 !important;
 }
 /* background-theme-color */
 .bg-theme-colored {
-  background-color: #EE163B !important;
+  background-color: #eb1854 !important;
 }
 .bg-theme-colored-lighter2 {
   background-color: #ef2447 !important;
@@ -397,7 +435,7 @@ ul.list.theme-colored.check li:before,
 .menuzord .menuzord-menu > li.active > a,
 .menuzord .menuzord-menu > li:hover > a,
 .menuzord .menuzord-menu ul.dropdown li:hover > a {
-  background: #EE163B;
+  background: #eb1854;
   color: #fff;
 }
 .menuzord .menuzord-menu > li.active > a i,
@@ -738,8 +776,8 @@ fieldset[disabled] .btn-gray.btn-theme-colored.focus {
 */
 .btn-theme-colored {
   color: #fff;
-  background-color: #EE163B;
-  border-color: #EE163B;
+  background-color: #eb1854;
+  border-color: #eb1854;
 }
 .btn-theme-colored:focus,
 .btn-theme-colored.focus {
