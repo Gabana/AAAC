@@ -1,5 +1,9 @@
 
 /* My colors */
+
+.bg-news{
+  background-color: #eee;
+}
 .text-link-members {
   color: #ff9941 !important;
 }
@@ -7,10 +11,51 @@
 .text-link-orange {
   color: #ff9941 !important;
 }
+.text-link-orange:hover {
+  color: #d34103 !important;
+}
+
+.text-link-yellow {
+  color: #ffdf41 !important;
+}
+.text-link-yellow:hover {
+  color: #e0c336 !important;
+}
+
+.text-link-green {
+  color: #33bfc5 !important;
+}
+.text-link-green:hover {
+  color: #01686c !important;
+}
+.text-link-custom:hover {
+  color: #33bfc5 !important;
+}
+
+.text-link-purple {
+  color: #72e818 !important;
+}
+
+
+.text-link-custom {
+  color: #33bfc5 !important;
+}
+
+.text-link-siglig{
+  color: #33bfc5 !important;
+}
+.text-link-siglig:hover {
+  color: #01686c !important;
+}
 
 .text-subheading-siglig {
   font-weight: bold;
-  color: #0233af !important;
+  color: #456ccf !important;
+}
+
+.text-subheading-custom {
+  font-weight: bold;
+  color: #456ccf !important;
 }
 
 .text-research-interests{
@@ -22,18 +67,26 @@
   text-align: left !important;
 }
 
+.text-bold{
+  font-weight: bold;
+}
+
 .siglig-list{
   font-size: 20px;
   /*font-weight: bold;*/
 }
 
-.text-link-siglig{
-  color: #ff9941 !important;
-}
 
 .add-tab{
   display: inline-block;
 
+}
+
+.text-link-red {
+  color: #eb1854 !important;
+}
+.text-link-red:hover {
+  color: #fd7098 !important;
 }
 
 /* --------------------------------------

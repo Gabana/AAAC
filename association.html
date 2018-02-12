@@ -5,8 +5,8 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="AAAC - Association for the Advancement of Affective Computing" />
-<meta name="keywords" content="affective computing,acii,aaac,emotion-research,emotion,research" />
+<meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
+<meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
 <meta name="author" content="ThemeMascot" />
 
 <!-- Page Title -->
@@ -34,6 +34,7 @@
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/elegant-icons.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
@@ -101,11 +102,11 @@
           <nav id="menuzord-right" class="menuzord default no-bg">
             <a class="menuzord-brand pull-left flip" href="index-mp-layout1.html"><img src="images/aaac-logo-new.png" alt=""></a>
             <ul class="menuzord-menu">
-              <li class="active"><a href="#home">Home</a>
+              <li><a href="#home">Home</a>
                 
               </li>
-              <li><a href="association.html">Association</a></li>
-              <li><a href="members.html">Members</a></li>
+              <li><a href="#">Association</a></li>
+              <li class="active"><a href="members.html">Members</a></li>
               <li><a href="sigsandligs.html">SIGs and LIGs</a>
                 <ul class="dropdown">
                   <li><a href="sigsandligs-single.html">Entertainment SIG</a></li>
@@ -118,9 +119,19 @@
                   <li><a href="sigsandligs-single.html">LIG UK</a></li>
                 </ul>
               </li>
-              <li><a href="recentnews.html">News</a></li>
-               <li><a href="acii.html">ACII</a></li>
-               <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">About</a>
+                  <ul class="dropdown">
+                  <li><a href="page-about1.html">About style 1</a></li>
+                  <li><a href="page-about3.html">About style 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Events</a>
+                <ul class="dropdown">
+                  <li><a href="page-event-list.html">Event List</a></li>
+                  <li><a href="page-single-event.html">Single Event</a></li>
+                </ul>
+              </li>
+               <li><a href="http://www.acii2017.org">ACII 2017</a></li>
               
             </ul>
           </nav>
@@ -132,118 +143,35 @@
   <!-- Start main-content -->
   <div class="main-content">
 
-    <!-- Section: home -->
-    <!-- <section id="home" class="divider parallax layer-overlay overlay-dark-4" data-bg-img="http://placehold.it/1920x1280"> -->
-    <section id="home" class="divider parallax layer-overlay overlay-dark-4" data-bg-img="images/acii17.jpg">
-      <div class="display-table">
-        <div class="display-table-cell">
-          <div class="container pt-100 pb-100">
-            <div class="row">
-              <div class="col-md-8 pt-50">
-                <div class="home-content sm-text-center">
-                  <h2 class="text-white text-uppercase font-48 font-weight-800 pl-10 mt-0 mb-20 line-height-1">Association for the Advancement of Affective Computing</h2>
-                  <div class="col-sm-12 col-md-12">
-                    <div class="icon-box p-10 pl-0 mb-20">
-                     <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-sm pull-left sm-pull-none flip" href="https://www.computer.org/web/tac">
-                      <i class="pe-7s-notebook text-white"></i>
-                     </a>
-                     <div class="ml-70 ml-sm-0">
-                      <p class="text-white font-26"><a href="https://www.computer.org/web/tac" class="text-white font-26">IEEE Transactions on Affective Computing</a></p>
-                     </div>
-                    </div>
-                  </div>
-                    <div class="col-sm-6 col-md-6">
-                    <a class="btn btn-theme-colored btn-default ml-15 mt-15" href="https://www.computer.org/portal/web/tac/author">Submit a manuscript</a>
-                    <a class="btn btn-theme-colored text-white ml-15 mt-15" href="https://newton.computer.org/sssubs.nsf/application?openform&promocode=tac">Subscribe</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 mt-sm-30">
-                            
-                <!-- Donation Form Starts -->
-                <form id="paypal_donate_form_onetime_recurring" class=" bg-white border-5px box-shadow11 p-30">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <h3 class="text-black line-bottom mt-0 mb-20"><span class="text-theme-colored">Members</span> Login</h3>
-                      
-                      <!-- <div class="col-sm-6"> -->
-                    <div class="form-group">
-                      <label for="form_name">Name</label>
-                      <input id="form_name" name="form_name" type="text" placeholder="Enter Name" required="" class="form-control">
-                    </div>
-
-                    <!-- <div class="col-sm-6"> -->
-                    <div class="form-group">
-                      <label for="form_name">Password</label>
-                      <input id="form_name" name="form_name" class="form-control required" type="password" placeholder="Enter Password">
-                    </div>
-
-                  <!-- </div> -->
-
-                  
-                   <!--  <div class="col-sm-12">
-                     <img src="images/payment-card-logo-sm.png" alt="">
-                   </div> -->
-                    <div class="col-sm-12">
-                      <div class="form-group mb-0 mt-20">
-                        <input name="form_botcheck" class="form-control" type="hidden" value="">
-                        <button type="submit" class="btn btn-colored btn-theme-colored text-white btn-lg btn-block" data-loading-text="Please wait...">Login</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-  
-                <!-- Appointment Form Validation-->
-                <script type="text/javascript">
-                  $("#home_appointment_form").validate({
-                    submitHandler: function(form) {
-                      var form_btn = $(form).find('button[type="submit"]');
-                      var form_result_div = '#form-result';
-                      $(form_result_div).remove();
-                      form_btn.before('&lt;div id="form-result" class="alert alert-success" role="alert" style="display: none;"&gt;&lt;/div&gt;');
-                      var form_btn_old_msg = form_btn.html();
-                      form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                      $(form).ajaxSubmit({
-                        dataType:  'json',
-                        success: function(data) {
-                          if( data.status == 'true' ) {
-                            $(form).find('.form-control').val('');
-                          }
-                          form_btn.prop('disabled', false).html(form_btn_old_msg);
-                          $(form_result_div).html(data.message).fadeIn('slow');
-                          setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                        }
-                      });
-                    }
-                  });
-                </script>
-
-                <!-- Appointment Form Ends -->
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- divider: Emergency Services -->
-    <section class="divider bg-theme-colored" data-parallax-ratio="0.7">
-      <div class="container pt-30 pb-30">
-        <div class="section-content text-center">
-          <div class="row">
+    <!-- Section: inner-header -->
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/members/members.jpg">
+      <div class="container pt-100 pb-50">
+        <!-- Section Content -->
+        <div class="section-content pt-100">
+          <div class="row"> 
             <div class="col-md-12">
-              <h2 class="text-white text-uppercase mt-0">AAAC</h2>
-              <h3 class="text-white mt-5">Association for the Advancement of Affective Computing</h3>
+              <h3 class="title text-white">AAAC</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Section: About -->
-    <section>
+    
+    <!-- Section: Members -->
+    <section id="team" class="bg-silver-light">
       <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h2 class="text-uppercase line-bottom-center mt-0"> <span class="text-theme-colored font-weight-600">The Association for the Advancement of Affective Computing</span> </h2>
+              <div class="title-icon">
+                <i class="flaticon-charity-hand-holding-a-heart"></i>
+              </div>
+             <!--  <p><b>The AAAC is a professional, world-wide association for researchers in emotion-oriented/affective computing.</b></p>
+              <p>The AAAC, formerly the HUMAINE Association, was founded in June 2007, and its first Executive Committee and Management Board were elected in September and October 2007.</p> -->
+            </div>
+          </div>
+        </div>
         <div class="section-content">
           <div class="row">
             <div class="col-md-6 mt-20">
@@ -274,204 +202,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section: Become a Member -->
-    <section>
-      <div id="registermember"></div>
-      <div class="container">
-        <div class="section-content">
-
-          <div class="row">
-            <div class="col-md-6">
-              <h3 class="bg-theme-colored p-15 pl-30 mb-0 text-white">Registration</h3>
-              <form id="volunteer_apply_form" class="bg-light p-30 pb-15" name="job_apply_form" action="includes/become-volunteer.php" method="post" enctype="multipart/form-data">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <label for="form_name">Name <small>*</small></label>
-                      <input id="form_name" name="form_name" type="text" placeholder="Enter Name" required="" class="form-control">
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <label for="form_email">Email <small>*</small></label>
-                      <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">               
-                 
-                <div class="col-sm-12">
-                      <div class="form-group mb-20">
-                        <label><strong class="text-theme-colored">AAAC Membership type</strong></label>
-                        <select name="amount" class="form-control text-black">
-                            <option value="standard">Standard Member, Two Years £50 GBP</option>
-                            <option value="student">Student Member, Two Years £20 GBP</option>
-                        </select>
-                        <div id="custom_other_amount" style="display: none;">
-                          <label><strong>Custom Amount:</strong></label>
-                        </div>
-                      </div>
-                    </div>
-                <!-- <div class="form-group">
-                  <label for="form_message">Message <small>*</small></label>
-                  <textarea id="form_message" name="form_message" class="form-control required" rows="3" placeholder="Your cover letter/message sent to the employer"></textarea>
-                </div>
-                <div class="form-group">
-                  <label for="form_attachment">C/V Upload</label>
-                  <input id="form_attachment" name="form_attachment" class="file" type="file" multiple data-show-upload="false" data-show-caption="true">
-                </div> -->
-                <div class="form-group">
-                  <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="" />
-                  <button type="submit" class="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Pay with PayPal</button>
-                </div>
-              </form>
-              <!-- Job Form Validation-->
-              <script type="text/javascript">
-                $("#volunteer_apply_form").validate({
-                  submitHandler: function(form) {
-                    var form_btn = $(form).find('button[type="submit"]');
-                    var form_result_div = '#form-result';
-                    $(form_result_div).remove();
-                    form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                    var form_btn_old_msg = form_btn.html();
-                    form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                    $(form).ajaxSubmit({
-                      dataType:  'json',
-                      success: function(data) {
-                        if( data.status == 'true' ) {
-                          $(form).find('.form-control').val('');
-                        }
-                        form_btn.prop('disabled', false).html(form_btn_old_msg);
-                        $(form_result_div).html(data.message).fadeIn('slow');
-                        setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                      }
-                    });
-                  }
-                });
-              </script>
-            </div>
-           
-          </div>
-           <div class="col-md-6 sm-text-center">
-            <h2 class="font-36"> <span class="text-theme-colored">Become a Member</span> </h2>
-              <p>The AAAC currently has XXXX members.</p>
-              <p>Membership in the Association is open to all researchers and research students in one of the disciplines related to emotion-oriented and affective computing.</p>
-              <p>Alternatively, transfer the amount to the following account: <br>
-              <b>IBAN: GB55MIDL40040751449362 — SWIFT/BIC: MIDLGB22 </b><br>
-              (Bank: HSBC Kings Cross, 31 Euston Road, NW1 2ST London UK — Beneficiary: The Association for the Advancement of Affective Computing, care of Tyndallwoods Solicitors, 29 Woodbourne Road, B17 8BY Birmingham UK) and send a screenshot or receipt of the bank transfer to <a href="mailto:portal-editor@emotion-research.com" class="text-link-orange">portal-editor</a> & <a href="mailto:treasurer@emotion-research.com" class="text-link-orange">treasurer</a></p>
-
-              <!-- <img class="hidden-sm hidden-xs" src="http://placehold.it/410x504" alt=""> -->
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Divider -->
-    <section class="divider parallax layer-overlay overlay-dark-9" data-bg-img="http://placehold.it/1920x1280" data-parallax-ratio="0.7">
-      <div class="container pt-80 pb-80">
-        <div class="row">
-          <div class="col-md-10 text-center col-md-offset-1">
-            <!-- <h2 class="text-white font-36 text-uppercase font-weight-600 mt-0">Become a Proud <span class="text-theme-colored">Volunteer</span></h2> -->
-            <!-- <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis totam, laudantium officia praesentium expedita omnis unde tempora beatae, modi, sequi quis. Est quas corporis, nobis aperiam cumque minima libero rem, itaque quo vitae odit?</p> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
- <!-- Section: Members -->
-    <section id="team" class="bg-silver-light">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase line-bottom-center mt-0"> <span class="text-theme-colored font-weight-600">Members</span> </h2>
-              <div class="title-icon">
-                <i class="flaticon-charity-hand-holding-a-heart"></i>
-              </div>
-              <p><b>The AAAC currently has XXXX active members.</b> <br> Want to join the AAAC or renew your membership? Click <a href="#registermember" class="text-link-orange smooth-scroll-to-target">here</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-sm-6 col-md-2">
-              <div class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400 mb-sm-30">
-                <div class="thumb"><a class="text-theme-colored" href="member-single.html"><img class="img-fullwidth" src="images/defaultUser180x230.jpg" alt=""></a></div>
-                <div class="content p-20 bg-white text-center">
-                  <h4 class="name mb-0 mt-0"><a class="text-link-red" href="member-single.html">Sakib John</a></h4>
-                  <p>QMUL</p>
-                  <!-- <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing</p> -->
-                  
-                </div>
-              </div>
-            </div>  
-            <div class="col-sm-6 col-md-2">
-              <div class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400 mb-sm-30">
-                <div class="thumb"><a class="text-theme-colored" href="member-single.html"><img class="img-fullwidth" src="images/defaultUser180x230.jpg" alt=""></a></div>
-                <div class="content p-20 bg-white text-center">
-                  <h4 class="name mb-0 mt-0"><a class="text-link-red" href="#">Fiona John</a></h4>
-                  <p>MIT</p>
-                  <!-- <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing</p> -->
-                  
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-sm-6 col-md-3">
-              <div class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400 mb-sm-30">
-                <div class="thumb"><img class="img-fullwidth" src="http://placehold.it/270x270" alt=""></div>
-                <div class="content p-20 bg-white text-center">
-                  <h4 class="name mb-0 mt-0"><a class="text-theme-colored" href="#">Ismail Smith</a></h4>
-                  <p>Student / Joined May'16</p>
-                  <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing</p>
-                  <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400">
-                <div class="thumb"><img class="img-fullwidth" src="http://placehold.it/270x270" alt=""></div>
-                <div class="content p-20 bg-white text-center">
-                  <h4 class="name mb-0 mt-0"><a class="text-theme-colored" href="#">Jerin Smith</a></h4>
-                  <p>Student / Joined May'16</p>
-                  <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing</p>
-                  <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>  -->            
-          </div>
-        </div>
       </div>   
     </section>
 
- <!-- Divider -->
-    <section class="divider parallax layer-overlay overlay-dark-9" data-bg-img="http://placehold.it/1920x1280" data-parallax-ratio="0.7">
-      <div class="container pt-80 pb-80">
-        <div class="row">
-          <div class="col-md-10 text-center col-md-offset-1">
-            <!-- <h2 class="text-white font-36 text-uppercase font-weight-600 mt-0">Become a Proud <span class="text-theme-colored">Volunteer</span></h2> -->
-            <!-- <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis totam, laudantium officia praesentium expedita omnis unde tempora beatae, modi, sequi quis. Est quas corporis, nobis aperiam cumque minima libero rem, itaque quo vitae odit?</p> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Section:  Management board -->
-    <section id="team" class="bg-silver-light">
+    <section id="team">
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
@@ -493,8 +228,8 @@
                   
                   <div class="overlay">
                     <div class="content">
-                     <p>President<br>2017-2021</p>
-                      <a href="mailto:president@emotion-research.com" class="text-link-orange text-bold">president@emotion-research.com</a></b>
+                     <b> <p>President<br>2017-2021</p>
+                      <a href="mailto:president@emotion-research.com" class="text-link-orange">president@emotion-research.com</a></b>
                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
                     </div>
                   </div>
@@ -518,8 +253,8 @@
                   <a href="#">
                   <div class="overlay">
                     <div class="content">
-                      <p>Secretary<br>2017-2021</p>
-                      <a href="mailto:secretary@emotion-research.com" class="text-link-orange text-bold">secretary@emotion-research.com</a></b>
+                      <b><p>Secretary<br>2017-2021</p>
+                      <a href="mailto:secretary@emotion-research.com" class="text-link-orange">secretary@emotion-research.com</a></b>
                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
                     </div>
                   </div>
@@ -544,8 +279,8 @@
                   <!-- <a href="#"> -->
                   <div class="overlay">
                     <div class="content">
-                      <p>Treasurer<br>2017-2021</p>
-                      <a href="mailto:treasurer@emotion-research.com"  class="text-link-orange text-bold">treasurer@emotion-research.com</a></b>
+                      <b><p>Treasurer<br>2017-2021</p>
+                      <a href="mailto:treasurer@emotion-research.com"  class="text-link-orange">treasurer@emotion-research.com</a></b>
 
                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
                     </div>
@@ -570,7 +305,7 @@
     </section>
 
     <!-- Section:  Executive Comitee -->
-    <section id="team" class="bg-silver-light">
+    <section id="team">
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
@@ -670,7 +405,7 @@
                   <a href="#">
                     <div class="overlay">
                     <div class="content">
-                     <p>2017-2021<br><span class="text-link-orange text-bold">See Profile</span></p>
+                     <p>2017-2021<br><span class="text-link-orange text-bold"> See Profile</span></p></b>
                       <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
                     </div>
@@ -695,7 +430,7 @@
                   <a href="#">
                     <div class="overlay">
                     <div class="content">
-                     <p>2017-2021<br><span class="text-link-orange"> See Profile</span></p>
+                      <p>2017-2021<br><span class="text-link-orange text-bold"> See Profile</span></p>
                       <!-- <a href="http://web.mit.edu/" class="text-link-members">mit.edu</a></b> -->
                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iste nihil ex libero ab esse, dignissimos maxime enim sint laborum.</p> -->
                     </div>
@@ -717,63 +452,99 @@
       </div>
     </section>
 
-    <!-- Section:  comitee -->
-  <!--   <section id="team" class="bg-silver-light">
+    
+      <!-- Section: Become a Member -->
+    <section>
+      <div id="registermember"></div>
       <div class="container">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase line-bottom-center mt-0"><span class="text-theme-colored font-weight-600">Executive</span> Comitee</h2>
-              <div class="title-icon">
-                <i class="flaticon-charity-hand-holding-a-heart"></i>
-              </div>
-              <p>The following persons form the Executive Committee of the Association, its decision-making body.</p>
-            </div>
-          </div>
-        </div>
         <div class="section-content">
-          <div class="row multi-row-clearfix">
-            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
-              <div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="http://placehold.it/360x360" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-0 text-white">Sakib Jacson</h3>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
-              <div class="team-member clearfix">
-                <div class="team-thumb">
-                  <img alt="" src="images/committee/joostbroekens.jpg" class="img-fullwidth">
-                  <div class="overlay">
-                    <div class="content">
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-info bg-theme-colored">
-                  <h3 class="mt-5 text-white">Joost Broekens</h3>
-                  <p class="mt-0 text-gray-lighter">2017-2021</p>
-                  <a href="#" class="text-link-orange">MIT.edu</p>
-                  <ul class="styled-icons icon-circled icon-theme-colored">
-                  </ul>
-                </div>
-              </div>
-            </div>
 
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="bg-theme-colored p-15 pl-30 mb-0 text-white">Registration</h3>
+              <form id="volunteer_apply_form" class="bg-light p-30 pb-15" name="job_apply_form" action="includes/become-volunteer.php" method="post" enctype="multipart/form-data">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="form_name">Name <small>*</small></label>
+                      <input id="form_name" name="form_name" type="text" placeholder="Enter Name" required="" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="form_email">Email <small>*</small></label>
+                      <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">               
+                 
+                <div class="col-sm-12">
+                      <div class="form-group mb-20">
+                        <label><strong class="text-theme-colored">AAAC Membership type</strong></label>
+                        <select name="amount" class="form-control text-black">
+                            <option value="standard">Standard Member, Two Years £50 GBP</option>
+                            <option value="student">Student Member, Two Years £20 GBP</option>
+                        </select>
+                        <div id="custom_other_amount" style="display: none;">
+                          <label><strong>Custom Amount:</strong></label>
+                        </div>
+                      </div>
+                    </div>
+                <!-- <div class="form-group">
+                  <label for="form_message">Message <small>*</small></label>
+                  <textarea id="form_message" name="form_message" class="form-control required" rows="3" placeholder="Your cover letter/message sent to the employer"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="form_attachment">C/V Upload</label>
+                  <input id="form_attachment" name="form_attachment" class="file" type="file" multiple data-show-upload="false" data-show-caption="true">
+                </div> -->
+                <div class="form-group">
+                  <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="" />
+                  <button type="submit" class="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Pay with PayPal</button>
+                </div>
+              </form>
+              <!-- Job Form Validation-->
+              <script type="text/javascript">
+                $("#volunteer_apply_form").validate({
+                  submitHandler: function(form) {
+                    var form_btn = $(form).find('button[type="submit"]');
+                    var form_result_div = '#form-result';
+                    $(form_result_div).remove();
+                    form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                    var form_btn_old_msg = form_btn.html();
+                    form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                    $(form).ajaxSubmit({
+                      dataType:  'json',
+                      success: function(data) {
+                        if( data.status == 'true' ) {
+                          $(form).find('.form-control').val('');
+                        }
+                        form_btn.prop('disabled', false).html(form_btn_old_msg);
+                        $(form_result_div).html(data.message).fadeIn('slow');
+                        setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                      }
+                    });
+                  }
+                });
+              </script>
+            </div>
+           
           </div>
+           <div class="col-md-6 sm-text-center">
+            <h2 class="font-36"> <span class="text-theme-colored">Become a Member</span> </h2>
+              <p>The AAAC currently has XXXX members.</p>
+              <p>Membership in the Association is open to all researchers and research students in one of the disciplines related to emotion-oriented and affective computing.</p>
+              <p>Alternatively, transfer the amount to the following account: <br>
+              <b>IBAN: GB55MIDL40040751449362 — SWIFT/BIC: MIDLGB22 </b><br>
+              (Bank: HSBC Kings Cross, 31 Euston Road, NW1 2ST London UK — Beneficiary: The Association for the Advancement of Affective Computing, care of Tyndallwoods Solicitors, 29 Woodbourne Road, B17 8BY Birmingham UK) and send a screenshot or receipt of the bank transfer to <a href="mailto:portal-editor@emotion-research.com" class="text-link-orange">portal-editor</a> & <a href="mailto:treasurer@emotion-research.com" class="text-link-orange">treasurer</a></p>
+
+              <!-- <img class="hidden-sm hidden-xs" src="http://placehold.it/410x504" alt=""> -->
+            </div>
         </div>
       </div>
-    </section> -->
+    </section>
+
 
   </div>
   <!-- end main-content -->
@@ -784,8 +555,7 @@
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="widget mb-20"> <img alt="" src="images/aaac-logo-new-white-footer.png">
-            <p class="font-12 mt-15 mb-10">Copyright © 2018 by AAAC, the Association for the Advancement of Affective Computing. </p>
-            <!-- <p class="font-12 mt-15 mb-10"><a href="#" >Legal disclaimer.</a></p> -->
+            <p class="font-12 mt-15 mb-10">Association for the Advancement of Affective Computing</p>
           </div>
           <div class="widget dark">
             <div class="widget-subscribe mt-20">
@@ -823,7 +593,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Archives</h5>
             <ul class="list list-divider list-border">
@@ -835,8 +605,8 @@
               <li><a href="#"><i class="fa fa-check-square-o mr-10 text-black-light"></i> Air Condition</a></li>
               <li><a href="#"><i class="fa fa-check-square-o mr-10 text-black-light"></i> Compression</a></li>
             </ul>
-          </div> 
-        </div>-->
+          </div>
+        </div>
         
         
       </div>
@@ -845,24 +615,13 @@
   </footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+</div>
 <!-- end wrapper -->
 
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
-
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) -->
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 
 </body>
 </html>
