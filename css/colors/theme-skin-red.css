@@ -1,3 +1,29 @@
+@font-face{
+    font-family: "Lao MN Regular";
+    src: url('../../fonts/Lao_MN.ttc'),
+    url('../../fonts/Lao_MN.ttc'); /* IE */
+}
+
+.lao-font{
+  font-family: 'Lao MN Regular', 'Open Sans', sans-serif;
+}
+
+.image-small{
+  width: 120px;
+}
+
+.news-home{
+  height: 300px;
+}
+
+.news-home-text{
+  height: 120px;
+}
+
+.button-bottom{
+  position: absolute;
+bottom:   20px;
+}
 
 /* My colors */
 
