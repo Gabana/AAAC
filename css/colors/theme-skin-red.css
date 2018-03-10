@@ -4,6 +4,19 @@
     url('../../fonts/Lao_MN.ttc'); /* IE */
 }
 
+.members-height{
+  height: 110px;
+}
+
+.members-image{
+  height: 208px;
+  background-color: #FFF;
+}
+
+.full-width{
+  width: 100%;
+}
+
 .lao-font{
   font-family: 'Lao MN Regular', 'Open Sans', sans-serif;
 }
