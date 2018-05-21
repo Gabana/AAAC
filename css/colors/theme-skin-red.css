@@ -4,6 +4,11 @@
     url('../../fonts/Lao_MN.ttc'); /* IE */
 }
 
+.see-more-members{
+  text-align: center;
+  font-weight: bold;
+}
+
 .members-height{
   height: 110px;
 }
