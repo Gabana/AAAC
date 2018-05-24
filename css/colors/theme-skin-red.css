@@ -4,10 +4,24 @@
     url('../../fonts/Lao_MN.ttc'); /* IE */
 }
 
+.float-right{
+  float: right;
+}
+
+.send-news{
+  text-align: center;
+  margin-bottom: 25px !important;
+}
+
+.become-member-button{
+  margin-top: 15px !important;
+}
+
 .see-more-members{
   text-align: center;
   font-weight: bold;
 }
+
 
 .members-height{
   height: 110px;
@@ -674,8 +688,8 @@ fieldset[disabled] .btn-default.btn-theme-colored.focus {
 .btn-default.btn-theme-colored:hover,
 .btn-default.btn-theme-colored:active,
 .btn-default.btn-theme-colored:focus {
-  background-color: #EE163B;
-  border-color: #EE163B;
+  background-color: #c30e2d;
+  border-color: #b90e2b;
   color: #fff;
 }
 /*
