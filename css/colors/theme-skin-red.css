@@ -4,6 +4,14 @@
     url('../../fonts/Lao_MN.ttc'); /* IE */
 }
 
+.conferences-blurb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+ 
 .float-right{
   float: right;
 }
