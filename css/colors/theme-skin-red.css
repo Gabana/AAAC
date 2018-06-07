@@ -4,6 +4,17 @@
     url('../../fonts/Lao_MN.ttc'); /* IE */
 }
 
+
+.theme-colored{
+  color: #eb1854 !important;
+ 
+} 
+.theme-colored:hover{
+  color: #c30e2d !important;
+ 
+} 
+
+
 .conferences-blurb{
   margin-top: 15px;
   margin-bottom: 15px;
